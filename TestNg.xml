@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TestSuite" thread-count="1">
+	
+	<parameter name="number_of_items" value="1" />
+	<parameter name="searchkey" value="Macbook pro" />
+	<parameter name="quantity" value="2" />
+	<parameter name="totalcart_items" value="3 items" />
+	<test name="completeTest">
+		<parameter name="verifylogin" value="Hello, Amulya" />
+		<classes>
+		<class name="com.selenium.testcases.Testclass"/>
+		</classes>
+	</test>
+</suite>
